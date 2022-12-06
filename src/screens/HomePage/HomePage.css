@@ -1,0 +1,51 @@
+.main {
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../../4.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  font-size: 95px;
+  padding-top: 1px;
+}
+.subtitle {
+  font-size: 25px;
+  padding-top: 1px;
+}
+.intro-text {
+  width: 100%;
+  text-align: center;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.homebutton {
+  width: 180px;
+  height: 55px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .buttonContainer {
+    padding: 0 200px;
+  }
+  .title {
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 60px;
+  }
+  .homebutton {
+    width: 150px;
+    height: 50px;
+  }
+}
